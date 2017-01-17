@@ -17,3 +17,9 @@ cp -vf ../elbuilds-release.tar.gz /tmp/rpmbuild/SOURCES
 rpmbuild -D '_topdir /tmp/rpmbuild' -ba /tmp/rpmbuild/SPECS/elbuilds-release.spec
 ```
 
+## COPYING
+
+Copyright (c) 2017 秦凡东 (Qin Fandong)
+
+Read [LICENSE](LICENSE) for more.
+
