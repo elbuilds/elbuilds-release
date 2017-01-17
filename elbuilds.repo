@@ -1,0 +1,27 @@
+# elbuilds.repo
+#
+# The mirror system uses the connecting IP address of the client and the
+# update status of each mirror to pick mirrors that are updated to and
+# geographically close to the client.  You should use this for Enterprise Linux
+# updates unless you are manually picking other mirrors.
+#
+# If the baseurl=http:// does not work for you, as a fall back you can try the
+# remarked out baseurl=ftp:// line instead.
+#
+#
+
+[elbuilds]
+name=The elbuilds repository for Enterprise Linux $releasever - $basearch
+baseurl=http://site.arondight.me/elbuilds/$releasever/$basearch/
+#baseurl=ftp://site.arondight.me/elbuilds/$releasever/$basearch/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
+
+[elbuilds-source]
+name=The elbuilds repository for Enterprise Linux $releasever - $basearch - Source
+baseurl=http://site.arondight.me/elbuilds/$releasever/Source/
+#baseurl=ftp://site.arondight.me/elbuilds/$releasever/Source/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
+
