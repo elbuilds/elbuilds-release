@@ -12,15 +12,15 @@
 
 [elbuilds]
 name=The elbuilds repository for Enterprise Linux $releasever - $basearch
-baseurl=http://site.arondight.me/elbuilds/$releasever/$basearch/
-#baseurl=ftp://site.arondight.me/elbuilds/$releasever/$basearch/
+baseurl=http://elbuilds.website/elbuilds/$releasever/$basearch/
+#baseurl=ftp://elbuilds.website/elbuilds/$releasever/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
 
 [elbuilds-source]
 name=The elbuilds repository for Enterprise Linux $releasever - $basearch - Source
-baseurl=http://site.arondight.me/elbuilds/$releasever/Source/
-#baseurl=ftp://site.arondight.me/elbuilds/$releasever/Source/
+baseurl=http://elbuilds.website/elbuilds/$releasever/Source/
+#baseurl=ftp://elbuilds.website/elbuilds/$releasever/Source/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
