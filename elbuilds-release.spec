@@ -37,6 +37,6 @@ This package contains the elbuilds repository for Enterprise Linux, as well as t
 %{_sysconfdir}/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
 
 %changelog
-* Tue Jan 17 2017 <shell_way@foxmail.com> - 1.0-1
+* Tue Jan 17 2017 Qin Fandong <shell_way@foxmail.com> - 1.0-1
 - Initial package.
 
