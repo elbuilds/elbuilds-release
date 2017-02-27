@@ -12,15 +12,15 @@
 
 [elbuilds]
 name=The elbuilds repository for Enterprise Linux $releasever - $basearch
-baseurl=http://elbuilds.website:8000/elbuilds/$releasever/$basearch/
-#baseurl=ftp://elbuilds.website:2100/elbuilds/$releasever/$basearch/
+baseurl=http://repo.elbuilds.website:8000/$releasever/$basearch/
+#baseurl=ftp://repo.elbuilds.website:2100/$releasever/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
 
 [elbuilds-source]
 name=The elbuilds repository for Enterprise Linux $releasever - $basearch - Source
-baseurl=http://elbuilds.website:8000/elbuilds/$releasever/Source/
-#baseurl=ftp://elbuilds.website:2100/elbuilds/$releasever/Source/
+baseurl=http://repo.elbuilds.website:8000/$releasever/Source/
+#baseurl=ftp://repo.elbuilds.website:2100/$releasever/Source/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
