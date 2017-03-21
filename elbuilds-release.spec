@@ -1,6 +1,6 @@
 Summary: The elbuilds repository for Enterprise Linux
 Name: elbuilds-release
-Version: 1.0
+Version: 1.1
 Release: 1%{?dist}
 License: GPLv3+
 Group: System Environment/Base
@@ -37,6 +37,9 @@ This package contains the elbuilds repository for Enterprise Linux, as well as t
 %{_sysconfdir}/pki/rpm-gpg/RPM-GPG-KEY-elbuilds
 
 %changelog
+* Tue Mar 21 2017 Qin Fandong <shell_way@foxmail.com> - 1.1-1
+- Change RPM-GPG-KEY-elbuilds
+
 * Tue Jan 17 2017 Qin Fandong <shell_way@foxmail.com> - 1.0-1
 - Initial package.
 
